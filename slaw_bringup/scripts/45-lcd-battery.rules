@@ -1,0 +1,1 @@
+SUBSYSTEMS=="usb", KERNEL=="ttyACM[0-9]*", ATTRS{idVendor}=="16d0", ATTRS{idProduct}=="059d", MODE="0666", SYMLINK+="youbot/lcd_display"

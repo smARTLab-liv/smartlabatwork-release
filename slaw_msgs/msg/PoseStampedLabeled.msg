@@ -1,0 +1,4 @@
+geometry_msgs/PoseStamped pose
+string label
+string detection_type
+float32 confidence

@@ -1,0 +1,7 @@
+<launch>
+    <node pkg="slaw_object_detection" name="HoughLine" type="HoughLine" respawn="false" output="screen">
+        <param name="config_file" type="string" value="houghline_parameter.yml"/>
+        <param name="image_topic" type="string" value="/usb_cam/image_raw"/>
+    </node>
+</launch>
+

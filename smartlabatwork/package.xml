@@ -1,0 +1,53 @@
+<package>
+  <name>smartlabatwork</name>
+  <version>1.0.0</version>
+  <description>youbot-smartlab</description>
+  <maintainer email="smartlab.liv@gmail.com">Maintained by smartlab</maintainer>
+
+  <license>GPL</license>
+  <license>BSD</license>
+
+  <url type="website">http://smartlab.dyndns.org/</url>
+  <!-- <url type="bugtracker"></url> -->
+
+  <author>Maintained by smartlab</author>
+
+  <!-- Dependencies which this package needs to build itself. -->
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <!-- Dependencies needed to compile this package. -->
+
+
+  <!-- Dependencies needed after this package is compiled. -->
+  <run_depend>slaw_dwa_local_planner</run_depend>
+  <run_depend>slaw_arm_navigation</run_depend>
+  <run_depend>slaw_bmt</run_depend>
+  <run_depend>slaw_bnt</run_depend>
+  <run_depend>slaw_bringup</run_depend>
+  <run_depend>slaw_btt</run_depend>
+  <run_depend>slaw_calibration</run_depend>
+  <!-- <run_depend>slaw_cameramount</run_depend> -->
+  <run_depend>slaw_cbt</run_depend>
+  <!-- <run_depend>slaw_dashboard</run_depend> -->
+  <run_depend>slaw_diagnostics</run_depend>
+  <run_depend>slaw_joystick</run_depend>
+  <run_depend>slaw_location_service</run_depend>
+  <run_depend>slaw_manipulation</run_depend>
+  <run_depend>slaw_navigation</run_depend>
+  <run_depend>slaw_pid</run_depend>
+  <run_depend>slaw_ppt</run_depend>
+  <run_depend>slaw_refbox</run_depend>
+  <run_depend>slaw_registration</run_depend>
+  <run_depend>slaw_smach</run_depend>
+  <run_depend>slaw_stage_world</run_depend>
+  <run_depend>slaw_twist_mixer</run_depend>
+
+  <!-- Dependencies needed only for running tests. -->
+
+
+
+
+
+
+
+</package>

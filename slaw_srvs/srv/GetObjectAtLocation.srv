@@ -1,0 +1,5 @@
+string loc
+string side
+string[] objects_to_pick
+---
+slaw_msgs/Object object

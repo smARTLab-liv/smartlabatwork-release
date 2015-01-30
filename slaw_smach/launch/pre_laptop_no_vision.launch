@@ -1,0 +1,18 @@
+<launch>
+<!--  <include file="$(find slaw_bringup)/launch/openni.launch" /> -->
+
+  <!-- <include file="$(find softkinetic_camera)/launch/camera.launch" /> -->
+  <!-- <node pkg="slaw_manipulation" name="detect_rv20" type="detect_rv20.py" respawn="true" output="screen" /> -->
+  <!-- <node pkg="slaw_manipulation" name="detect_objects_rgb" type="detect_objects_rgb.py" respawn="true" output="screen" /> -->
+
+<!--  <node pkg="slaw_manipulation" name="detect_objects_depth" type="detect_objects_depth.py" respawn="true" output="screen" />
+  <node pkg="slaw_manipulation" name="detect_holes_rgb" type="detect_holes_rgb.py" respawn="true" output="screen" />
+  <node pkg="slaw_manipulation" name="object_manager" type="object_manager.py" respawn="true" output="screen" />
+  <node pkg="slaw_manipulation" name="hole_manager" type="holes_manager.py" respawn="true" output="screen" />-->
+  <node pkg="slaw_arm_navigation" name="backplate_manager" type="backplate_manager.py" respawn="true" output="screen" />
+  <node pkg="image_view" name="image_depth" type="image_view" args="image:=/vision/image_depth"/>
+  <node pkg="image_view" name="image_rgb" type="image_view" args="image:=/vision/image_rgb"/>
+  <node pkg="image_view" name="image_holes" type="image_view" args="image:=/vision/image_holes"/>
+<!--  <include file="$(find slaw_object_detection)/launch/hough_line.launch" /> -->
+    
+</launch>

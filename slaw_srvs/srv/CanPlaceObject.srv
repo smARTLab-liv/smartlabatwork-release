@@ -1,0 +1,3 @@
+string          obj_name # obvious
+---
+bool            can_place # is true if can place

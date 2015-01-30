@@ -1,0 +1,14 @@
+locations:
+  - {name: S11, type: Pickup}
+  - {name: S14, type: Pickup}
+
+S11:
+  objects:
+    - {name: F20_20_B, destination_location: S13, type: PPT}
+    - {name: M30, destination_location: S12, type: Normal}
+    - {name: M20, destination_location: S13, type: PPT}
+S14:
+  objects:
+    - {name: S40_40_B, destination_location: S16, type: Normal}
+    - {name: M20, destination_location: S16, type: Normal}
+    - {name: S40_40_G, destination_location: S12, type: Normal}

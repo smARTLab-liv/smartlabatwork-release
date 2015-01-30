@@ -1,0 +1,8 @@
+<launch>
+    <include file="$(find slaw_bringup)/launch/openni.launch" />
+    <node pkg="slaw_object_detection" name="CameraCalibration" 
+        type="ExtrinsicParameter" respawn="false" output="screen">
+        <rosparam command="load" file="/home/broecker/.ros/camera_info/rgb_1206090086.yaml" />
+    </node>
+</launch>
+

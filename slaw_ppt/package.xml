@@ -1,0 +1,47 @@
+<package>
+  <name>slaw_ppt</name>
+  <version>1.0.0</version>
+  <description>slaw_ppt</description>
+  <maintainer email="smartlab.liv@gmail.com">danielclaes</maintainer>
+
+  <license>BSD</license>
+
+  <url type="website">http://ros.org/wiki/slaw_ppt</url>
+  <!-- <url type="bugtracker"></url> -->
+
+  <author>danielclaes</author>
+
+  <!-- Dependencies which this package needs to build itself. -->
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <!-- Dependencies needed to compile this package. -->
+  <build_depend>rospy</build_depend>
+  <build_depend>smach</build_depend>
+  <build_depend>smach_ros</build_depend>
+  <build_depend>move_base</build_depend>
+  <build_depend>visualization_msgs</build_depend>
+  <build_depend>slaw_bnt</build_depend>
+  <build_depend>slaw_navigation</build_depend>
+  <build_depend>slaw_manipulation</build_depend>
+
+  <!-- Dependencies needed after this package is compiled. -->
+  <run_depend>rospy</run_depend>
+  <run_depend>smach</run_depend>
+  <run_depend>smach_ros</run_depend>
+  <run_depend>move_base</run_depend>
+  <run_depend>visualization_msgs</run_depend>
+  <run_depend>slaw_bnt</run_depend>
+  <run_depend>slaw_navigation</run_depend>
+  <run_depend>slaw_manipulation</run_depend>
+
+  <!-- Dependencies needed only for running tests. -->
+  <!-- <test_depend>rospy</test_depend> -->
+  <!-- <test_depend>smach</test_depend> -->
+  <!-- <test_depend>smach_ros</test_depend> -->
+  <!-- <test_depend>move_base</test_depend> -->
+  <!-- <test_depend>visualization_msgs</test_depend> -->
+  <!-- <test_depend>slaw_bnt</test_depend> -->
+  <!-- <test_depend>slaw_navigation</test_depend> -->
+  <!-- <test_depend>slaw_manipulation</test_depend> -->
+
+</package>

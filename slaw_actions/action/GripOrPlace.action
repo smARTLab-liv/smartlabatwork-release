@@ -1,0 +1,12 @@
+#goal definition
+float32 effort
+string object
+bool close
+bool heavy
+bool set_point
+float32 width
+---
+#result definition
+bool result
+---
+#feedback

@@ -1,0 +1,6 @@
+<launch>
+    <include file="$(find slaw_bringup)/launch/openni.launch" />
+    <node pkg="slaw_object_detection" name="ObjectDetection" 
+        type="ObjectDetector" respawn="false" output="screen" />
+</launch>
+

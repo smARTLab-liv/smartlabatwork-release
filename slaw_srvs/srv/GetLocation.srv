@@ -1,0 +1,3 @@
+string          name # optional, if empty all locations are returned
+---
+slaw_msgs/Location[]      locations

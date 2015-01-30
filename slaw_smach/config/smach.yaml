@@ -1,0 +1,8 @@
+#general config  
+smach:
+  no_move_base: false
+  no_fine_adjust: false
+  no_arm: false
+  no_vision: false
+  time_out: 15.0
+  max_tries: 4

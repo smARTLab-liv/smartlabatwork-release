@@ -1,0 +1,22 @@
+locations:
+  - {name: S1, type: Pickup, side: left}
+  - {name: front, type: Pickup}
+
+  
+S1:
+  objects:
+    - {name: S40_40_G, destination_location: DA, type: PPT}
+    - {name: S40_40_B, destination_location: DB, type: Normal}
+
+front:
+  objects:
+    - {name: M20, destination_location: DA, type: PPT}
+    - {name: M30, destination_location: DA, type: PPT}
+    - {name: M20_100, destination_location: DB, type: Normal}
+    - {name: V20, destination_location: DA, type: PPT}
+    - {name: R20, destination_location: DA, type: PPT}
+    - {name: F20_20_B, destination_location: DA, type: PPT}
+    - {name: F20_20_G, destination_location: DA, type: PPT}
+    - {name: S40_40_G, destination_location: DA, type: PPT}
+    - {name: S40_40_B, destination_location: DB, type: Normal}
+   

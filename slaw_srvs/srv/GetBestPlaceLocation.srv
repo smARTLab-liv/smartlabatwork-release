@@ -1,0 +1,4 @@
+string          obj_name #object which is to be placed on back plate
+string[]        objects_to_pick #all objects have to be picked and placed
+---
+string          place_loc #location if empty no possible option

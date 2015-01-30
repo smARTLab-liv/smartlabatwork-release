@@ -1,0 +1,3 @@
+string side ##location pickup side 
+---
+float32 dist

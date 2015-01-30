@@ -1,0 +1,7 @@
+<launch>
+    <node pkg="slaw_object_detection" name="HoughCircle" type="HoughCircles" respawn="false" output="screen">
+        <param name="config_file" type="string" value="camera_parameter.yml"/>
+        <param name="image_topic" type="string" value="/usb_cam/image_raw"/>
+    </node>
+</launch>
+

@@ -1,0 +1,13 @@
+<launch>
+    <include file="$(find slaw_bringup)/launch/openni.launch" />
+    <node pkg="slaw_object_detection" name="CameraCalibration" 
+        type="ExtrinsicCalibr" respawn="false" output="screen">
+        <rosparam command="load" file="/home/broecker/.ros/camera_info/rgb_1206090086.yaml" />
+        <param name="BoardCols" type="int" value="8" />
+        <param name="BoardRows" type="int" value="6" />
+        <param name="CellSize" type="double" value="2.7" />
+        <param name="config_file" type="string" value="camera_parameter.yml"/>
+        <param name="image_topic" type="string" value="/usb_cam/image_raw"/>
+        </node>
+</launch>
+

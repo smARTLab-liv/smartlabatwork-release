@@ -1,0 +1,22 @@
+smach:
+  no_move_base: false
+  no_fine_adjust: false
+  no_arm: false
+  no_vision: false
+  time_out: 15.0
+  max_tries: 4
+
+  
+#locations:
+#  - {name: left, type: Pickup}
+#  - {name: front, type: Pickup}
+#- {name: SF, type: Pickup}
+#  - {name: left, type: Pickup}
+
+#SF:
+#  objects:
+#    - {name: R20, destination_location: SLB, type: PPT}
+#    - {name: M20, destination_location: SLB, type: PPT}
+#    - {name: M30, destination_location: SLB, type: PPT}
+#    - {name: M20_100, destination_location: SLB, type: PPT}
+  

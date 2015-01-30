@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<launch>
+	<!-- set refbox IP by argument -->
+
+
+	<!-- start command encoder -->
+	<node pkg="refbox_status_updater" type="RefBoxStatusUpdater.py" name="refbox_status_updater" output="screen"/>
+
+	<param name="/refbox_updater/local_port" value="11113" />
+	<param name="/refbox_updater/Braodcast_ADDR" value="192.168.2.255" />
+	<param name="/refbox_updater/Braodcast_PORT" value="11112" />
+	<param name="/refbox_updater/status_topic" value="/refbox/status" />
+	
+</launch>

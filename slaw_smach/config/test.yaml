@@ -1,0 +1,38 @@
+smach:
+  no_move_base: false
+  no_fine_adjust: false
+  no_arm: false
+  no_vision: false
+  time_out: 15.0
+  max_tries: 4
+
+  
+locations:
+  - {name: left, type: Pickup}
+  - {name: front, type: Pickup}
+
+  
+left:
+  objects:
+    - {name: M20, destination_location: front, type: PPT}
+    - {name: M30, destination_location: front, type: PPT}
+    - {name: M20_100, destination_location: front, type: PPT}
+    - {name: V20, destination_location: front, type: PPT}
+    - {name: R20, destination_location: front, type: PPT}
+    - {name: F20_20_B, destination_location: front, type: PPT}
+    - {name: F20_20_G, destination_location: front, type: PPT}
+    - {name: S40_40_G, destination_location: front, type: PPT}
+    - {name: S40_40_B, destination_location: front, type: PPT}
+
+front:
+  objects:
+    - {name: M20, destination_location: left, type: PPT}
+    - {name: M30, destination_location: left, type: PPT}
+    - {name: M20_100, destination_location: left, type: PPT}
+    - {name: V20, destination_location: left, type: PPT}
+    - {name: R20, destination_location: left, type: PPT}
+    - {name: F20_20_B, destination_location: left, type: PPT}
+    - {name: F20_20_G, destination_location: left, type: PPT}
+    - {name: S40_40_G, destination_location: left, type: PPT}
+    - {name: S40_40_B, destination_location: left, type: PPT}
+   

@@ -1,0 +1,14 @@
+<launch>
+  <include file="$(find slaw_registration)/launch/icp.launch" />
+  <include file="$(find slaw_navigation)/launch/slaw_global_navigation.launch" />
+  <include file="$(find slaw_arm_navigation)/launch/slaw_arm_navigation.launch" />
+  <!-- <include file="$(find slaw_object_detection)/launch/usb_cam.launch" /> -->
+
+  <include file="$(find slaw_bringup)/launch/openni2.launch" />
+
+  <node pkg="slaw_navigation" name="odom_move" type="odom_move_action.py" />
+  <node pkg="slaw_navigation" name="align_line" type="align_line.py" />
+
+  <rosparam command="load" file="$(find slaw_smach)/config/test.yaml" />
+  <rosparam command="load" file="$(find slaw_smach)/config/holes.yaml"/>
+</launch>

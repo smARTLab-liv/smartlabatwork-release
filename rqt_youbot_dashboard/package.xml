@@ -1,0 +1,26 @@
+<package>
+  <name>rqt_youbot_dashboard</name>
+  <version>0.3.1</version>
+  <description>
+    The RQT youbot dashboard is an adapted version of the rqt_kobuki_dashboard
+  </description>
+  <maintainer email="smartlab@work.com">SmartLab@Work</maintainer>
+  <license>BSD</license>
+  <url type="website">http://ros.org/wiki/kobuki_dashboard</url>
+  <url type="repository">https://github.com/yujinrobot/kobuki_desktop</url>
+  <url type="bugtracker">https://github.com/yujinrobot/kobuki_desktop/issues</url>
+  
+  <author email="smartlab@work.com">SmartLab@Work</author>
+  
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>rospy</build_depend>
+  <build_depend>rqt_robot_dashboard</build_depend>
+
+  <run_depend>rospy</run_depend>
+  <run_depend>rqt_robot_dashboard</run_depend>
+  
+  <export>
+    <rqt_gui plugin="${prefix}/plugins/plugin.xml"/>
+  </export>
+</package>

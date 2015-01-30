@@ -1,0 +1,6 @@
+locations:
+  - {name: S15, type: BNT, dir: S, sleep: 3}
+  - {name: T12, type: BNT, dir: N, sleep: 3}
+  - {name: T13, type: BNT, dir: S, sleep: 3}
+  - {name: S16, type: BNT, dir: E, sleep: 3}
+  - {name: S12, type: BNT, dir: N, sleep: 3}

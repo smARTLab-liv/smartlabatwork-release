@@ -1,0 +1,8 @@
+# request
+string      name
+string      alignment
+string      pickup_side
+---
+# response
+bool        success
+string      reason

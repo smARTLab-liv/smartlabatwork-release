@@ -1,0 +1,139 @@
+RV20_h:
+  hole: RV20_vertical
+  pick_height_offset: 0.0
+  place_height_offset: 0.0
+  platform_place_height_offset: 0.0
+  platform_pick_height_offset: 0.0
+
+R20_h:
+  hole: RV20_horizontal
+  pick_height_offset: 0.0
+  place_height_offset: 0.0
+  platform_place_height_offset: 0.0
+  platform_pick_height_offset: 0.0
+
+R20_v:
+  hole: RV20_vertical
+  pick_height_offset: 0.0
+  place_height_offset: 0.0
+  platform_place_height_offset: 0.0
+  platform_pick_height_offset: 0.0
+
+V20_h:
+  hole: RV20_horizontal
+  pick_height_offset: 0.0
+  place_height_offset: 0.0
+  platform_place_height_offset: 0.0
+  platform_pick_height_offset: 0.0
+
+V20_v:
+  hole: RV20_vertical
+  pick_height_offset: 0.0
+  place_height_offset: 0.0
+  platform_place_height_offset: 0.0
+  platform_pick_height_offset: 0.0
+
+F20_20_B_v:
+  hole: F20_20_vertical
+  pick_height_offset: 0.04    #4 cm higher
+  place_height_offset: 0.4
+  platform_place_height_offset: 0.04
+  platform_pick_height_offset: 0.0
+
+F20_20_B_h:
+  hole: F20_20_horizontal
+  pick_height_offset: 0.0
+  place_height_offset: 0.0
+  platform_place_height_offset: 0.0
+  platform_pick_height_offset: 0.0
+
+F20_20_G_v:
+  hole: F20_20_vertical
+  pick_height_offset: 0.04
+  place_height_offset: 0.04
+  platform_place_height_offset: 0.04
+  platform_pick_height_offset: 0.0
+
+F20_20_G_h:
+  hole: F20_20_horizontal
+  pick_height_offset: 0.0
+  place_height_offset: 0.0
+  platform_place_height_offset: 0.0
+  platform_pick_height_offset: 0.0
+
+M20_v:
+  hole: M20_vertical
+  pick_height_offset: 0.0
+  place_height_offset: 0.005
+  platform_place_height_offset: 0.002
+  platform_pick_height_offset: 0.002
+
+M20_h:
+  hole: M20_horizontal
+  pick_height_offset: 0.0
+  place_height_offset: 0.0
+  platform_place_height_offset: 0.0
+  platform_pick_height_offset: 0.0
+
+M20_100_HD_v:
+  hole: M20_horizontal
+  pick_height_offset: 0.04
+  place_height_offset: 0.04
+  platform_place_height_offset: 0.04
+  platform_pick_height_offset: 0.0
+
+M20_100_HU_v:
+  hole: M20_horizontal
+  pick_height_offset: 0.04
+  place_height_offset: 0.04
+  platform_place_height_offset: 0.04
+  platform_pick_height_offset: 0.0
+
+M20_100_h:
+  hole: M20_100_horizontal
+  pick_height_offset: 0.0
+  place_height_offset: -0.003
+  platform_place_height_offset: 0.0
+  platform_pick_height_offset: -0.002
+
+M30_h:
+  hole: M30_horizontal
+  pick_height_offset: 0.0
+  place_height_offset: 0.0
+  platform_place_height_offset: 0.0
+  platform_pick_height_offset: 0.0
+
+M30_v:
+  hole: M30_vertical
+  pick_height_offset: 0.0
+  place_height_offset: 0.005
+  platform_place_height_offset: 0.002
+  platform_pick_height_offset: 0.002
+
+S40_40_B_h:
+  hole: S40_40_horizontal
+  pick_height_offset: 0.0
+  place_height_offset: 0.0
+  platform_place_height_offset: 0.0
+  platform_pick_height_offset: 0.0
+
+S40_40_B_v:
+  hole: S40_40_vertical
+  pick_height_offset: 0.04
+  place_height_offset: 0.04
+  platform_place_height_offset: 0.04
+  platform_pick_height_offset: 0.04
+
+S40_40_G_h:
+  hole: S40_40_horizontal
+  pick_height_offset: 0.0
+  place_height_offset: 0.0
+  platform_place_height_offset: 0.0
+  platform_pick_height_offset: 0.0
+
+S40_40_G_v:
+  hole: S40_40_vertical
+  pick_height_offset: 0.04
+  place_height_offset: 0.04
+  platform_place_height_offset: 0.04
+  platform_pick_height_offset: 0.04

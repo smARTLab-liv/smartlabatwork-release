@@ -1,0 +1,17 @@
+smach:
+  no_move_base: false
+  no_fine_adjust: false
+  no_arm: true
+  no_vision: false
+  time_out: 15.0
+  max_tries: 4
+
+locations:
+  - {name: test, type: Pickup}
+
+test:
+  objects:
+    - {name: R20, destination_location: DA, type: PPT}
+    - {name: F20_20_B, destination_location: DA, type: PPT}
+    - {name: M20_NUT, destination_location: DA, type: PPT}
+    - {name: M20_100, destination_location: DB, type: Normal}

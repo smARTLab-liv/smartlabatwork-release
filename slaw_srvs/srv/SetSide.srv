@@ -1,0 +1,2 @@
+string side       #if platform is in front side = 'front' if plat is on side, side = 'side'
+---

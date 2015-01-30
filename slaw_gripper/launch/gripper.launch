@@ -1,0 +1,6 @@
+<launch>
+ <include file="$(find slaw_gripper)/launch/controller_manager.launch" /> 
+ <include file="$(find slaw_gripper)/launch/controller_spawner.launch" />
+ <node name="slaw_gripper_controller" pkg="slaw_gripper" type="gripper_controller.py" required="true" output="screen" />
+
+</launch>

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<launch>
+
+  <include file="$(find slaw_location_service)/launch/location_service.launch" />
+
+  <include file="$(find slaw_stage_world)/launch/move_base.launch" /> 
+
+  <node pkg='slaw_navigation' type='align_line.py' name='align_line' output='screen'>
+    <remap from='/cmd_twist_move_base' to='/cmd_vel' />
+  </node>
+  <node pkg='topic_tools' type='relay' name='relay_front' args='/base_scan /base_scan_front'  output='screen'/> 
+  <node pkg='topic_tools' type='relay' name='relay_rear' args='/base_scan /base_scan_rear'  output='screen'/> 
+
+    
+
+</launch>

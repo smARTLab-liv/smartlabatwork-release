@@ -1,0 +1,12 @@
+#goal
+float32 dist
+float32 eps_theta
+float32 eps_lin
+int32 counts
+string side
+---
+#result
+bool success
+#geometry_msgs/Pose2D result
+---
+#feedback

@@ -1,0 +1,9 @@
+locations:
+  - {name: S11, type: Pickup}
+
+S11:
+  objects:
+    - {name: S40_40_B, destination_location: S13, type: PPT}
+    - {name: V20, destination_location: S13, type: PPT}
+    - {name: M20, destination_location: S13, type: PPT}
+

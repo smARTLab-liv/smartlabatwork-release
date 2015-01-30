@@ -1,0 +1,47 @@
+<package>
+  <name>slaw_registration</name>
+  <version>1.0.0</version>
+  <description>slaw_registration</description>
+  <maintainer email="smartlab.liv@gmail.com">parallels</maintainer>
+
+  <license>BSD</license>
+
+  <url type="website">http://ros.org/wiki/slaw_registration</url>
+  <!-- <url type="bugtracker"></url> -->
+
+  <author>parallels</author>
+
+  <!-- Dependencies which this package needs to build itself. -->
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <!-- Dependencies needed to compile this package. -->
+  
+  <build_depend>roscpp</build_depend>
+  <build_depend>laser_geometry</build_depend>
+  <build_depend>pcl_ros</build_depend>
+  <build_depend>tf</build_depend>
+  <build_depend>slaw_actions</build_depend>
+  <build_depend>slaw_msgs</build_depend>
+  <build_depend>slaw_srvs</build_depend>
+
+  
+  <!-- Dependencies needed after this package is compiled. -->
+  <run_depend>roscpp</run_depend>
+  <run_depend>laser_geometry</run_depend>
+  <run_depend>pcl_ros</run_depend>
+  <run_depend>tf</run_depend>
+  <run_depend>slaw_actions</run_depend>
+  <run_depend>slaw_msgs</run_depend>
+  <run_depend>slaw_srvs</run_depend>
+
+  <!-- Dependencies needed only for running tests. -->
+  <!-- <test_depend>roscpp</test_depend> -->
+  <!-- <test_depend>laser_geometry</test_depend> -->
+  <!-- <test_depend>pcl</test_depend> -->
+  <!-- <test_depend>pcl_ros</test_depend> -->
+  <!-- <test_depend>tf</test_depend> -->
+  <!-- <test_depend>pcl17</test_depend> -->
+  <!-- <test_depend>pcl17_ros</test_depend> -->
+  <!-- <test_depend>slaw_navigation</test_depend> -->
+
+</package>

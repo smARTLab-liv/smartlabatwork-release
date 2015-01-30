@@ -1,0 +1,17 @@
+<launch>
+  <include file="$(find slaw_location_service)/launch/location_service.launch" />
+
+  <include file="$(find slaw_registration)/launch/icp.launch" />
+
+  <!-- <include file="$(find slaw_navigation)/launch/slaw_global_navigation.launch" /> -->
+  <!-- <include file="$(find slaw_arm_navigation)/launch/slaw_arm_navigation.launch" /> -->
+  <node pkg="slaw_navigation" name="odom_move" type="odom_move_action.py" output='screen' />
+
+
+  <rosparam command="load" file="$(find slaw_arm_navigation)/config/arm_ik_action.yaml"/>
+  <node pkg="topic_tools" type="relay" name="relay_front" 
+	args="/base_scan /base_scan_front" />
+  <node pkg="topic_tools" type="relay" name="relay_rear" 
+	args="/base_scan /base_scan_rear" />
+
+</launch>
